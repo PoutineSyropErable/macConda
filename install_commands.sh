@@ -21,3 +21,5 @@ conda activate || conda_activate #if you have my .zsh or .fish config, then it w
 conda create --name master_venv
 conda activate master_venv
 conda install -y requests websocket-client pillow tk
+
+python client_remote.py
