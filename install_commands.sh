@@ -22,4 +22,6 @@ conda create --name master_venv
 conda activate master_venv
 conda install -y requests websocket-client pillow tk
 
+printf "\nGo to the room where you can /repo <your-github-username> <your-github-project-url>, if you own it also do /partner <your-friend>
+Then check your emails, and git clone theirs\n"
 python client_remote.py
