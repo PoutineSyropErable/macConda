@@ -8,6 +8,7 @@ git pull origin master
 zsh
 
 
+chmod 744 ./install_commands.sh
 ./install_commands.sh # you might need to execute it yourself, or copy paste its commands and type them not from a script.
 
 ```
