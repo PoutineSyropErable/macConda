@@ -5,7 +5,7 @@ mkdir -p ~/Downloads
 [ -d "$HOME/Downloads/macConda/.git" ] || git clone --depth=1 https://github.com/PoutineSyropErable/macConda ~/Downloads/macConda
 cd ~/Downloads/macConda
 git pull origin master
-zsh
+zsh || fish || bash
 
 
 chmod 744 ./install_commands.sh
